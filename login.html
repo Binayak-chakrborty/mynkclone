@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+</head>
+<style>
+    body{
+        background: url("bg.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .form{
+        top: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    #form{
+
+display: block;
+width: 34%;
+margin: auto;
+align-items: center;
+
+padding: 25px;
+border: 2px solid black;
+border-radius: 20px;
+}
+input{
+
+    padding: 12px;
+}
+form div{
+    padding-bottom: 10px;
+    text-align: center;
+}
+</style>
+<body>
+    <div class="form">
+    
+    <form action="action.php" id="form">
+        <div>
+        <label for="name">user name:</label>
+        <input type="text" placeholder="name">
+    </div>
+
+
+
+      <div> 
+       <label for="password"> password:</label>
+       <input type="password" placeholder="password">
+    </div> 
+    <div>
+        <input type="button" value="submit">
+    </div>
+    </form>
+
+</div>
+</body>
+</html>

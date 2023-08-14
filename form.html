@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+<style>
+        body{
+                background-color: aquamarine;
+                height:auto;
+        }
+        body:hover{
+                background-color: blanchedalmond;
+        }
+.header{
+        display: block;
+        text-align: center;
+        width: 100%;
+color: chocolate;
+
+}
+.header:hover{
+        display: block;
+        text-align: center;
+        width: 100%;
+color:black;
+
+}
+.application{
+        border: 2px solid blueviolet;
+       width: 550px;
+       
+        
+       display: block;
+       margin: auto;
+       text-align: center;
+       background-color: gold;
+       padding-top: 50px;
+       
+}
+.application:hover{
+        border: 2px solid blueviolet;
+       width: 550px;
+       
+        
+       display: block;
+       margin: auto;
+       text-align: center;
+       background-color:darksalmon ;
+       
+
+}
+#submit{
+           background-color: azure;
+           color: black;
+}
+#submit:hover{
+        background-color: cornflowerblue;
+        color: darkred;
+}
+#one{
+        padding-bottom: 25px;
+}
+
+</style>
+<body>
+   <h1 class="header">APPLICATION FORM</h1>
+    <div class="application">
+<form action="action.php" class="form" target="_blank">
+        <marquee id="one"> <strong> CHECKOUT THIS FORM!</strong></marquee>
+        <div class="fname">
+<label for="firstname" id="fname"class="fname">ENTER FIRST NAME </label>
+<input type="text" id="fname" placeholder="enter your first name " required >
+</div>
+<br>
+<div id="lname">
+<label for="lastname" id="lname">ENTER LAST NAME </label>
+<input type="text" id="lname"placeholder="enter your last name " required >
+</div>
+<br>
+<div id="email">
+<label for="email">EMAIL:</label>
+<input type="email" name="email" id="email" placeholder="your email" required>
+</div>
+<br>
+<div class="phone">
+<label for="phone">PHONE:</label>
+<input type="tel" name="tel" id="phone" placeholder="xxxxxxxxx" required>
+</div>
+<br>
+<div class="address">
+<label for="address">ADDRESS:</label>
+<input type="text" name="address" id="address" placeholder="your address" required>
+</div>
+<br>
+<div class="gender">
+<label for="gender"> SELECT GENDER</label>
+<select name="gender" id="gender">
+<option value="male" id="male">male</option>
+<option value="female"id="female">female</option>
+<option value="trans gender"id="trans gender">trans gender</option>
+
+
+</select>
+</div>
+<br>
+<div class="dob">
+<label for="date of birth">"Date of birth</label>
+<input type="date" name="date of birth" id="phone" placeholder="your date of birth" required>
+</div>
+<br>
+<div class="edu">
+             HIGHEST EDUCATION <input type="text" placeholder="HIGHEST EDUCATION" class="edu">
+        </div>
+<br>
+<div class="textarea">
+        <textarea name="" class="textarea" cols="30" rows="10" placeholder="say something!!"></textarea>
+        
+        
+        </div>
+<div class="submit">
+        <input type="button" value="submit" class="submit" id="submit">
+</div>
+
+</form>
+
+    </div>
+</body>
+</html>
